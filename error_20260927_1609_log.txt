@@ -1,0 +1,1564 @@
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                                  OPSIHAZARD1LEVELING                                                  
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════ OS INIT ═══════════════════════════════════════════════════════
+2026-09-27 15:44:21.812 | INFO | OS INIT                                                                               
+2026-09-27 15:44:21.852 | INFO | <<< UI ENSURE >>>                                                                     
+2026-09-27 15:44:21.854 | INFO | UI get current page                                                                   
+2026-09-27 15:44:21.867 | INFO | [UI] page_main                                                                        
+2026-09-27 15:44:21.868 | INFO | Goto page_os                                                                          
+2026-09-27 15:44:21.871 | INFO | <<< UI GOTO PAGE_OS >>>                                                               
+2026-09-27 15:44:21.875 | INFO | Page switch: page_main_white -> page_campaign_menu                                    
+2026-09-27 15:44:21.878 | INFO | Click (1196,  505) @ MAIN_GOTO_CAMPAIGN_WHITE                                         
+2026-09-27 15:44:22.414 | INFO | Page switch: page_campaign_menu -> page_os                                            
+2026-09-27 15:44:22.416 | INFO | Click ( 706,  491) @ CAMPAIGN_MENU_GOTO_OS                                            
+2026-09-27 15:44:23.419 | INFO | Page arrive: page_os                                                                  
+2026-09-27 15:44:23.420 | INFO | <<< ZONE INIT >>>                                                                     
+2026-09-27 15:44:23.429 | INFO | Get zone name                                                                         
+2026-09-27 15:44:23.467 | INFO | Loading OCR model: ./bin/cnocr_models/cnocr                                           
+2026-09-27 15:44:23.700 | INFO | [MAP_NAME 0.245s] 西大陆架D-安全海域                                                  
+2026-09-27 15:44:23.707 | INFO | Map name processed: 西大陆架D                                                         
+2026-09-27 15:44:23.720 | INFO | [Zone] [44|West Continental Shelf D]                                                  
+────────────────────────────────────────────────── AFTER AUTO SEARCH ──────────────────────────────────────────────────
+2026-09-27 15:44:23.728 | INFO | AFTER AUTO SEARCH                                                                     
+2026-09-27 15:44:23.804 | INFO | No EMP debuff on current fleet                                                        
+2026-09-27 15:44:23.810 | INFO | [HP]  98%  98%  98%  75%  95%  98%                                                    
+2026-09-27 15:44:23.814 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:44:23.815 | INFO | No ship found to be below threshold 40%, continue OS exploration                      
+2026-09-27 15:44:23.819 | INFO | Handle after auto search finished, solved=False                                       
+2026-09-27 15:44:23.820 | INFO | Current fleet is not afflicted with the low resolve debuff                            
+2026-09-27 15:44:23.823 | INFO | In zone 22, 44, 154, skip running first auto search                                   
+2026-09-27 15:44:23.824 | INFO | Ash beacon status: gray                                                               
+2026-09-27 15:44:23.892 | INFO | [ASH_COLLECT_STATUS 0.066s] 0/200                                                     
+2026-09-27 15:44:23.972 | INFO | [ASH_DAILY_STATUS 0.075s] 200/200                                                     
+2026-09-27 15:44:23.978 | INFO | Ash beacon fully collected today                                                      
+════════════════════════════════════════════════ OS HAZARD 1 LEVELING ═════════════════════════════════════════════════
+2026-09-27 15:44:23.986 | INFO | OS HAZARD 1 LEVELING                                                                  
+2026-09-27 15:44:23.992 | INFO | [OS_ACTION_POINT_PRESERVE] 200                                                        
+2026-09-27 15:44:24.105 | INFO | [SHOP_YELLOW_COINS 0.108s] 217115                                                     
+2026-09-27 15:44:24.320 | INFO | [MAP_NAME 0.208s] 西大陆架D-安全海域                                                  
+2026-09-27 15:44:24.327 | INFO | Map name processed: 西大陆架D                                                         
+2026-09-27 15:44:24.335 | INFO | [Zone] [44|West Continental Shelf D]                                                  
+2026-09-27 15:44:24.383 | INFO | Click ( 906,   40) @ ACTION_POINT_REMAIN_OS                                           
+2026-09-27 15:44:24.966 | INFO | [Amount_ocr 0.229s] [1825, 24, 1, 0]                                                  
+2026-09-27 15:44:25.052 | INFO | [ACTION_POINT_REMAIN 0.082s] 133                                                      
+2026-09-27 15:44:25.057 | INFO | Action points: 133(663), oil: 1825                                                    
+2026-09-27 15:44:25.062 | INFO | Having enough action points                                                           
+2026-09-27 15:44:25.102 | INFO | Click ( 410,  572) @ ACTION_POINT_CANCEL                                              
+══════════════════════════════════════════ OS HAZARD 1 LEVELING, ZONE_ID=44 ═══════════════════════════════════════════
+2026-09-27 15:44:25.377 | INFO | OS HAZARD 1 LEVELING, ZONE_ID=44                                                      
+2026-09-27 15:44:25.379 | INFO | <<< FLEET SET TO 1 >>>                                                                
+2026-09-27 15:44:25.393 | INFO | It is fleet 1 already                                                                 
+───────────────────────────────────────────────── RUN STRATEGY SEARCH ─────────────────────────────────────────────────
+2026-09-27 15:44:25.396 | INFO | RUN STRATEGY SEARCH                                                                   
+2026-09-27 15:44:25.397 | INFO | <<< STRATEGIC SEARCH START >>>                                                        
+2026-09-27 15:44:25.397 | INFO | Strategic search enter                                                                
+2026-09-27 15:44:25.421 | INFO | Click (1232,  589) @ STRATEGIC_SEARCH_MAP_OPTION_OFF                                  
+2026-09-27 15:44:25.979 | INFO | Strategic search set tab                                                              
+2026-09-27 15:44:25.981 | INFO | Strategic search set option                                                           
+2026-09-27 15:44:25.983 | INFO | [zone_mode] repeat                                                                    
+2026-09-27 15:44:25.984 | INFO | [encounter_merchant] stop                                                             
+2026-09-27 15:44:25.985 | INFO | STRATEGIC_SEARCH_SCROLL_AREA set to 0.5                                               
+2026-09-27 15:44:25.987 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (34.5-35.0)/(193-70)                              
+2026-09-27 15:44:25.989 | INFO | Swipe ( 909,  306) -> ( 902,  367)                                                    
+2026-09-27 15:44:26.221 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (34.5-35.0)/(193-70)                              
+2026-09-27 15:44:26.421 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.44 (89.5-34.0)/(193-68)                              
+2026-09-27 15:44:26.436 | INFO | [encounter_device] stop                                                               
+2026-09-27 15:44:26.437 | INFO | STRATEGIC_SEARCH_SCROLL_AREA set to 1.0                                               
+2026-09-27 15:44:26.440 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.44 (89.5-34.0)/(193-68)                              
+2026-09-27 15:44:26.441 | INFO | Swipe ( 910,  364) -> ( 904,  502)                                                    
+2026-09-27 15:44:26.753 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (nan-0.0)/(193-0)                                 
+2026-09-27 15:44:26.954 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.99 (157.0-34.5)/(193-69)                             
+2026-09-27 15:44:26.964 | INFO | [auto_submit] on                                                                      
+2026-09-27 15:44:26.967 | INFO | Strategic search confirm                                                              
+2026-09-27 15:44:26.970 | INFO | Click ( 780,  523) @ POPUP_CONFIRM_STRATEGIC_SEARCH                                   
+─────────────────────────────────────────────────── OS AUTO SEARCH ────────────────────────────────────────────────────
+2026-09-27 15:44:27.360 | INFO | OS AUTO SEARCH                                                                        
+2026-09-27 15:44:27.394 | INFO | Click (1227,  539) @ AUTO_SEARCH_OS_MAP_OPTION_OFF                                    
+2026-09-27 15:44:36.012 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:44:36.014 | INFO | [battle_count] 1                                                                      
+2026-09-27 15:44:36.025 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:44:36.027 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:44:36.028 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:44:36.030 | INFO | Auto search combat loading                                                            
+2026-09-27 15:44:36.031 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:44:45.016 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:44:45.018 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:44:51.025 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:44:57.026 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:44:57.028 | INFO | Combat end.                                                                           
+2026-09-27 15:45:00.449 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:45:00.451 | INFO | [battle_count] 2                                                                      
+2026-09-27 15:45:00.461 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:45:00.462 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:45:00.464 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:45:00.465 | INFO | Auto search combat loading                                                            
+2026-09-27 15:45:00.466 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:45:09.457 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:45:09.458 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:45:14.461 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:45:21.475 | WARNING | Battle Status D                                                                    
+2026-09-27 15:45:21.909 | INFO | Click (1045,  681) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:45:27.476 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:45:27.477 | INFO | Combat end.                                                                           
+2026-09-27 15:45:27.479 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:45:27.484 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:45:29.091 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:45:29.092 | INFO | [battle_count] 3                                                                      
+2026-09-27 15:45:29.093 | INFO | [CL1 time cost] 53.08s/round                                                          
+2026-09-27 15:45:29.101 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:45:29.101 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:45:29.103 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:45:29.104 | INFO | Auto search combat loading                                                            
+2026-09-27 15:45:29.105 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:45:38.097 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:45:38.099 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:45:43.100 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:45:51.116 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:45:51.118 | INFO | Combat end.                                                                           
+2026-09-27 15:45:56.769 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:45:56.772 | INFO | [battle_count] 4                                                                      
+2026-09-27 15:45:56.785 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:45:56.787 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:45:56.788 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:45:56.789 | INFO | Auto search combat loading                                                            
+2026-09-27 15:45:56.792 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:46:05.752 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:46:05.755 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:46:11.756 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:46:17.771 | WARNING | Battle Status D                                                                    
+2026-09-27 15:46:18.159 | INFO | Click (1041,  644) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:46:18.786 | WARNING | Battle Status D                                                                    
+2026-09-27 15:46:19.155 | INFO | Click (1023,  652) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:46:19.769 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:46:19.772 | INFO | Combat end.                                                                           
+2026-09-27 15:46:19.775 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:46:19.779 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:46:26.616 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:46:26.617 | INFO | [battle_count] 5                                                                      
+2026-09-27 15:46:26.619 | INFO | [CL1 time cost] 57.52s/round                                                          
+2026-09-27 15:46:26.627 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:46:26.628 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:46:26.628 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:46:26.630 | INFO | Auto search combat loading                                                            
+2026-09-27 15:46:26.630 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:46:34.623 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:46:34.624 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:46:39.642 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:46:48.648 | WARNING | Battle Status D                                                                    
+2026-09-27 15:46:49.030 | INFO | Click (1024,  666) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:46:49.641 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:46:49.643 | INFO | Combat end.                                                                           
+2026-09-27 15:46:49.645 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:46:49.650 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:46:51.261 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:46:51.264 | INFO | [battle_count] 6                                                                      
+2026-09-27 15:46:51.278 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:46:51.279 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:46:51.281 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:46:51.283 | INFO | Auto search combat loading                                                            
+2026-09-27 15:46:51.283 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:47:00.264 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:47:00.265 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:47:05.268 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:47:13.285 | WARNING | Battle Status D                                                                    
+2026-09-27 15:47:13.690 | INFO | Click (1040,  658) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:47:14.288 | WARNING | Battle Status D                                                                    
+2026-09-27 15:47:14.705 | INFO | Click (1014,  666) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:47:15.284 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:47:15.285 | INFO | Combat end.                                                                           
+2026-09-27 15:47:15.288 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:47:15.292 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:47:29.975 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:47:29.976 | INFO | [battle_count] 7                                                                      
+2026-09-27 15:47:29.978 | INFO | [CL1 time cost] 63.36s/round                                                          
+2026-09-27 15:47:29.988 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:47:29.989 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:47:29.991 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:47:29.992 | INFO | Auto search combat loading                                                            
+2026-09-27 15:47:29.994 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:47:37.983 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:47:37.986 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:47:43.982 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:47:50.994 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:47:50.995 | INFO | Combat end.                                                                           
+2026-09-27 15:47:55.424 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:47:55.425 | INFO | [battle_count] 8                                                                      
+2026-09-27 15:47:55.434 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:47:55.435 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:47:55.437 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:47:55.439 | INFO | Auto search combat loading                                                            
+2026-09-27 15:47:55.440 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:48:04.433 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:48:04.433 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:48:10.436 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:48:17.449 | WARNING | Battle Status D                                                                    
+2026-09-27 15:48:17.880 | INFO | Click (1027,  658) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:48:19.450 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:48:19.451 | INFO | Combat end.                                                                           
+2026-09-27 15:48:19.455 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:48:19.460 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:48:29.511 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:48:29.513 | INFO | [battle_count] 9                                                                      
+2026-09-27 15:48:29.515 | INFO | [CL1 time cost] 59.54s/round                                                          
+2026-09-27 15:48:29.528 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:48:29.530 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:48:29.532 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:48:29.533 | INFO | Auto search combat loading                                                            
+2026-09-27 15:48:29.535 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:48:38.518 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:48:38.519 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:48:43.531 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:48:51.534 | WARNING | Battle Status D                                                                    
+2026-09-27 15:48:51.931 | INFO | Click (1031,  660) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:48:53.534 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:48:53.535 | INFO | Combat end.                                                                           
+2026-09-27 15:48:53.538 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:48:53.541 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:48:54.760 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:48:54.762 | INFO | [battle_count] 10                                                                     
+2026-09-27 15:48:54.774 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:48:54.775 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:48:54.777 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:48:54.779 | INFO | Auto search combat loading                                                            
+2026-09-27 15:48:54.780 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:49:03.754 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:49:03.756 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:49:08.757 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:49:14.768 | WARNING | Battle Status D                                                                    
+2026-09-27 15:49:15.134 | INFO | Click (1028,  649) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:49:16.767 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:49:16.769 | INFO | Combat end.                                                                           
+2026-09-27 15:49:16.773 | INFO | [HP]  98%  98%  98%  72%  95%  98%                                                    
+2026-09-27 15:49:16.775 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:49:29.242 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:49:29.244 | INFO | [battle_count] 11                                                                     
+2026-09-27 15:49:29.245 | INFO | [CL1 time cost] 59.73s/round                                                          
+2026-09-27 15:49:29.295 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:49:29.297 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:49:29.297 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:49:29.299 | INFO | Auto search combat loading                                                            
+2026-09-27 15:49:29.300 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:49:37.246 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:49:37.247 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:49:42.252 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:49:50.265 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:49:50.266 | INFO | Combat end.                                                                           
+2026-09-27 15:49:54.495 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:49:54.496 | INFO | [battle_count] 12                                                                     
+2026-09-27 15:49:54.508 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:49:54.511 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:49:54.512 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:49:54.513 | INFO | Auto search combat loading                                                            
+2026-09-27 15:49:54.515 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:50:02.496 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:50:02.497 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:50:07.502 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:50:20.518 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:50:20.520 | INFO | Combat end.                                                                           
+2026-09-27 15:50:25.772 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:50:25.776 | INFO | [battle_count] 13                                                                     
+2026-09-27 15:50:25.780 | INFO | [CL1 time cost] 56.53s/round                                                          
+2026-09-27 15:50:25.794 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:50:25.796 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:50:25.798 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:50:25.799 | INFO | Auto search combat loading                                                            
+2026-09-27 15:50:25.801 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:50:33.756 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:50:33.757 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:50:39.756 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:50:47.769 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:50:47.772 | INFO | Combat end.                                                                           
+2026-09-27 15:50:49.002 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:50:49.004 | INFO | [battle_count] 14                                                                     
+2026-09-27 15:50:49.018 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:50:49.021 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:50:49.022 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:50:49.024 | INFO | Auto search combat loading                                                            
+2026-09-27 15:50:49.025 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:50:56.988 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:50:56.991 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:51:02.985 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:51:11.015 | WARNING | Battle Status D                                                                    
+2026-09-27 15:51:11.344 | INFO | Click (1033,  665) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:51:12.012 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:51:12.013 | INFO | Combat end.                                                                           
+2026-09-27 15:51:12.017 | INFO | [HP]  98%  98%  98%  66%  95%  98%                                                    
+2026-09-27 15:51:12.021 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:51:19.648 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:51:19.650 | INFO | [battle_count] 15                                                                     
+2026-09-27 15:51:19.651 | INFO | [CL1 time cost] 53.87s/round                                                          
+2026-09-27 15:51:19.661 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:51:19.663 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:51:19.663 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:51:19.664 | INFO | Auto search combat loading                                                            
+2026-09-27 15:51:19.665 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:51:27.654 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:51:27.657 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:51:33.656 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:51:40.674 | WARNING | Battle Status D                                                                    
+2026-09-27 15:51:41.043 | INFO | Click (1032,  675) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:51:42.669 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:51:42.672 | INFO | Combat end.                                                                           
+2026-09-27 15:51:42.674 | INFO | [HP]  98%  98%  98%  66%  95%  98%                                                    
+2026-09-27 15:51:42.678 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:51:46.504 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:51:46.508 | INFO | [battle_count] 16                                                                     
+2026-09-27 15:51:46.520 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:51:46.520 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:51:46.522 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:51:46.522 | INFO | Auto search combat loading                                                            
+2026-09-27 15:51:46.523 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:51:55.513 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:51:55.516 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:52:01.512 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:52:09.533 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:52:09.535 | INFO | Combat end.                                                                           
+2026-09-27 15:52:20.791 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:52:20.793 | INFO | [battle_count] 17                                                                     
+2026-09-27 15:52:20.793 | INFO | [CL1 time cost] 61.14s/round                                                          
+2026-09-27 15:52:20.800 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:52:20.802 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:52:20.804 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:52:20.804 | INFO | Auto search combat loading                                                            
+2026-09-27 15:52:20.805 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:52:27.796 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:52:27.797 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:52:32.800 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:52:41.816 | WARNING | Battle Status D                                                                    
+2026-09-27 15:52:42.169 | INFO | Click (1028,  659) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:52:43.813 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:52:43.815 | INFO | Combat end.                                                                           
+2026-09-27 15:52:43.817 | INFO | [HP]  98%  98%  98%  65%  95%  98%                                                    
+2026-09-27 15:52:43.820 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:52:48.656 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:52:48.658 | INFO | [battle_count] 18                                                                     
+2026-09-27 15:52:48.671 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:52:48.673 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:52:48.674 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:52:48.676 | INFO | Auto search combat loading                                                            
+2026-09-27 15:52:48.677 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:52:56.660 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:52:56.662 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:53:02.660 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:53:07.672 | WARNING | Battle Status D                                                                    
+2026-09-27 15:53:07.981 | INFO | Click (1012,  657) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:53:09.673 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:53:09.676 | INFO | Combat end.                                                                           
+2026-09-27 15:53:09.677 | INFO | [HP]  98%  98%  98%  63%  95%  98%                                                    
+2026-09-27 15:53:09.680 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:53:23.757 | INFO | [Loading] 5%                                                                          
+2026-09-27 15:53:23.759 | INFO | [battle_count] 19                                                                     
+2026-09-27 15:53:23.760 | INFO | [CL1 time cost] 62.97s/round                                                          
+2026-09-27 15:53:23.768 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:53:23.769 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:53:23.771 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:53:23.771 | INFO | Auto search combat loading                                                            
+2026-09-27 15:53:23.773 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:53:31.762 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:53:31.764 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:53:36.766 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:53:42.825 | WARNING | Battle Status D                                                                    
+2026-09-27 15:53:43.202 | INFO | Click (1030,  660) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:53:44.782 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:53:44.785 | INFO | Combat end.                                                                           
+2026-09-27 15:53:44.791 | INFO | [HP]  98%  98%  98%  63%  95%  98%                                                    
+2026-09-27 15:53:44.796 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:53:45.390 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:53:45.391 | INFO | [battle_count] 20                                                                     
+2026-09-27 15:53:45.401 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:53:45.402 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:53:45.403 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:53:45.405 | INFO | Auto search combat loading                                                            
+2026-09-27 15:53:45.406 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:53:53.393 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:53:53.395 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:53:59.398 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:54:09.415 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:54:09.417 | INFO | Combat end.                                                                           
+2026-09-27 15:54:13.841 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:54:13.844 | INFO | [battle_count] 21                                                                     
+2026-09-27 15:54:13.846 | INFO | [CL1 time cost] 50.08s/round                                                          
+2026-09-27 15:54:13.855 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:54:13.857 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:54:13.859 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:54:13.860 | INFO | Auto search combat loading                                                            
+2026-09-27 15:54:13.861 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:54:21.848 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:54:21.849 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:54:27.848 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:54:35.861 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:54:35.862 | INFO | Combat end.                                                                           
+2026-09-27 15:54:40.098 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:54:40.099 | INFO | [battle_count] 22                                                                     
+2026-09-27 15:54:40.111 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:54:40.112 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:54:40.114 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:54:40.115 | INFO | Auto search combat loading                                                            
+2026-09-27 15:54:40.117 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:54:48.099 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:54:48.101 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:54:53.103 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:55:01.120 | WARNING | Battle Status D                                                                    
+2026-09-27 15:55:01.527 | INFO | Click (1042,  660) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:55:02.117 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:55:02.120 | INFO | Combat end.                                                                           
+2026-09-27 15:55:02.121 | INFO | [HP]  98%  98%  98%  57%  95%  98%                                                    
+2026-09-27 15:55:02.125 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:55:13.790 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:55:13.793 | INFO | [battle_count] 23                                                                     
+2026-09-27 15:55:13.793 | INFO | [CL1 time cost] 59.95s/round                                                          
+2026-09-27 15:55:13.805 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:55:13.808 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:55:13.809 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:55:13.812 | INFO | Auto search combat loading                                                            
+2026-09-27 15:55:13.813 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:55:21.792 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:55:21.793 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:55:27.796 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:55:34.814 | WARNING | Battle Status D                                                                    
+2026-09-27 15:55:35.194 | INFO | Click (1023,  651) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:55:35.809 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:55:35.812 | INFO | Combat end.                                                                           
+2026-09-27 15:55:35.816 | INFO | [HP]   0%   0%   0%   0%   0%   0%                                                    
+2026-09-27 15:55:35.823 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:55:42.254 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:55:42.257 | INFO | [battle_count] 24                                                                     
+2026-09-27 15:55:42.265 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:55:42.267 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:55:42.268 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:55:42.270 | INFO | Auto search combat loading                                                            
+2026-09-27 15:55:42.271 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:55:50.257 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:55:50.260 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:55:56.261 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:56:03.280 | WARNING | Battle Status D                                                                    
+2026-09-27 15:56:03.724 | INFO | Click (1035,  677) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:56:05.274 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:56:05.276 | INFO | Combat end.                                                                           
+2026-09-27 15:56:05.278 | INFO | [HP]  98%  98%  98%  54%  93%  98%                                                    
+2026-09-27 15:56:05.282 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:56:14.737 | INFO | [Loading] 5%                                                                          
+2026-09-27 15:56:14.739 | INFO | [battle_count] 25                                                                     
+2026-09-27 15:56:14.740 | INFO | [CL1 time cost] 60.94s/round                                                          
+2026-09-27 15:56:14.749 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:56:14.752 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:56:14.753 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:56:14.753 | INFO | Auto search combat loading                                                            
+2026-09-27 15:56:14.755 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:56:22.740 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:56:22.742 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:56:28.744 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:56:34.759 | WARNING | Battle Status D                                                                    
+2026-09-27 15:56:35.091 | INFO | Click (1043,  662) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:56:36.753 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:56:36.755 | INFO | Combat end.                                                                           
+2026-09-27 15:56:36.757 | INFO | [HP]  98%  98%  98%  54%  93%  98%                                                    
+2026-09-27 15:56:36.760 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:56:37.980 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:56:37.984 | INFO | [battle_count] 26                                                                     
+2026-09-27 15:56:38.004 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:56:38.007 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:56:38.009 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:56:38.012 | INFO | Auto search combat loading                                                            
+2026-09-27 15:56:38.014 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:56:45.968 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:56:45.969 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:56:50.974 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:56:57.998 | WARNING | Battle Status D                                                                    
+2026-09-27 15:56:58.263 | INFO | Click (1027,  666) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:57:03.989 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:57:03.989 | INFO | Combat end.                                                                           
+2026-09-27 15:57:03.992 | INFO | [HP]  98%  98%  98%  53%  93%  98%                                                    
+2026-09-27 15:57:03.996 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:57:05.406 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:57:05.407 | INFO | [battle_count] 27                                                                     
+2026-09-27 15:57:05.409 | INFO | [CL1 time cost] 50.67s/round                                                          
+2026-09-27 15:57:05.420 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:57:05.422 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:57:05.423 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:57:05.424 | INFO | Auto search combat loading                                                            
+2026-09-27 15:57:05.426 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:57:13.407 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:57:13.409 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:57:18.411 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:57:26.428 | WARNING | Battle Status D                                                                    
+2026-09-27 15:57:26.816 | INFO | Click (1009,  670) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:57:27.450 | WARNING | Battle Status D                                                                    
+2026-09-27 15:57:27.857 | INFO | Click (1029,  644) @ BATTLE_STATUS_D                                                  
+2026-09-27 15:57:28.430 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:57:28.431 | INFO | Combat end.                                                                           
+2026-09-27 15:57:28.435 | INFO | [HP]  98%  98%  98%  53%  93%  98%                                                    
+2026-09-27 15:57:28.440 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 15:57:35.068 | INFO | [Loading] 5%                                                                          
+2026-09-27 15:57:35.069 | INFO | [battle_count] 28                                                                     
+2026-09-27 15:57:35.080 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:57:35.081 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:57:35.083 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:57:35.084 | INFO | Auto search combat loading                                                            
+2026-09-27 15:57:35.084 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:57:43.073 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:57:43.075 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:57:48.077 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:57:58.092 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:57:58.094 | INFO | Combat end.                                                                           
+2026-09-27 15:58:12.788 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:58:12.791 | INFO | [battle_count] 29                                                                     
+2026-09-27 15:58:12.793 | INFO | [CL1 time cost] 67.38s/round                                                          
+2026-09-27 15:58:12.804 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:58:12.805 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:58:12.808 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:58:12.808 | INFO | Auto search combat loading                                                            
+2026-09-27 15:58:12.810 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:58:20.788 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:58:20.789 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:58:25.791 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:58:36.808 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:58:36.809 | INFO | Combat end.                                                                           
+2026-09-27 15:58:40.235 | INFO | [Loading] 5%                                                                          
+2026-09-27 15:58:40.236 | INFO | [battle_count] 30                                                                     
+2026-09-27 15:58:40.244 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:58:40.246 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:58:40.246 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:58:40.248 | INFO | Auto search combat loading                                                            
+2026-09-27 15:58:40.249 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:58:48.243 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:58:48.245 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:58:54.245 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:59:03.260 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:59:03.261 | INFO | Combat end.                                                                           
+2026-09-27 15:59:10.104 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:59:10.105 | INFO | [battle_count] 31                                                                     
+2026-09-27 15:59:10.108 | INFO | [CL1 time cost] 57.31s/round                                                          
+2026-09-27 15:59:10.116 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:59:10.117 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:59:10.119 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:59:10.120 | INFO | Auto search combat loading                                                            
+2026-09-27 15:59:10.121 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:59:18.109 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:59:18.111 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:59:23.113 | INFO | Submarine call timer reached                                                          
+2026-09-27 15:59:31.123 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 15:59:31.127 | INFO | Combat end.                                                                           
+2026-09-27 15:59:40.785 | INFO | [Loading] 4%                                                                          
+2026-09-27 15:59:40.788 | INFO | [battle_count] 32                                                                     
+2026-09-27 15:59:40.798 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 15:59:40.800 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 15:59:40.801 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 15:59:40.803 | INFO | Auto search combat loading                                                            
+2026-09-27 15:59:40.804 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 15:59:48.788 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 15:59:48.790 | INFO | Auto Search combat execute                                                            
+2026-09-27 15:59:53.792 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:00:07.816 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:00:07.819 | INFO | Combat end.                                                                           
+2026-09-27 16:00:10.629 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:00:10.630 | INFO | [battle_count] 33                                                                     
+2026-09-27 16:00:10.632 | INFO | [CL1 time cost] 60.52s/round                                                          
+2026-09-27 16:00:10.640 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:00:10.640 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:00:10.642 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:00:10.643 | INFO | Auto search combat loading                                                            
+2026-09-27 16:00:10.644 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:00:18.640 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:00:18.641 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:00:23.644 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:00:33.656 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:00:33.657 | INFO | Combat end.                                                                           
+2026-09-27 16:00:39.696 | INFO | [Loading] 5%                                                                          
+2026-09-27 16:00:39.698 | INFO | [battle_count] 34                                                                     
+2026-09-27 16:00:39.705 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:00:39.707 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:00:39.708 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:00:39.708 | INFO | Auto search combat loading                                                            
+2026-09-27 16:00:39.710 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:00:47.704 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:00:47.705 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:00:53.708 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:01:00.722 | WARNING | Battle Status D                                                                    
+2026-09-27 16:01:01.019 | INFO | Click (1006,  673) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:01:01.723 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:01:01.724 | INFO | Combat end.                                                                           
+2026-09-27 16:01:01.728 | INFO | [HP]   0%   0%   0%   0%   0%   0%                                                    
+2026-09-27 16:01:01.733 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:01:11.387 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:01:11.388 | INFO | [battle_count] 35                                                                     
+2026-09-27 16:01:11.389 | INFO | [CL1 time cost] 60.76s/round                                                          
+2026-09-27 16:01:11.399 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:01:11.402 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:01:11.404 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:01:11.404 | INFO | Auto search combat loading                                                            
+2026-09-27 16:01:11.406 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:01:19.392 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:01:19.393 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:01:24.394 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:01:33.412 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:01:33.414 | INFO | Combat end.                                                                           
+2026-09-27 16:01:40.263 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:01:40.265 | INFO | [battle_count] 36                                                                     
+2026-09-27 16:01:40.275 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:01:40.277 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:01:40.278 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:01:40.280 | INFO | Auto search combat loading                                                            
+2026-09-27 16:01:40.281 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:01:48.263 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:01:48.265 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:01:53.268 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:02:01.285 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:02:04.297 | INFO | Click ( 673,  630) @ AUTO_SEARCH_REWARD                                               
+2026-09-27 16:02:05.716 | INFO | OS auto search finished                                                               
+2026-09-27 16:02:05.720 | INFO | [HP]  98%  98%  98%  43%  93%  98%                                                    
+2026-09-27 16:02:05.726 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+─────────────────────────────────────────────────── CLEAR QUESTION ────────────────────────────────────────────────────
+2026-09-27 16:02:05.728 | INFO | CLEAR QUESTION                                                                        
+2026-09-27 16:02:05.784 | INFO |             -- -- --                                                                  
+2026-09-27 16:02:05.785 | INFO |       -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:05.787 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:02:05.788 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:02:05.789 | INFO | -- -- -- -- -- -- -- -- -- -- --                                                      
+2026-09-27 16:02:05.791 | INFO | -- -- -- -- -- FL -- -- -- -- --                                                      
+2026-09-27 16:02:05.793 | INFO | -- -- -- -- -- -- -- -- -- -- --                                                      
+2026-09-27 16:02:05.795 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:02:05.796 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:02:05.797 | INFO |       -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:05.799 | INFO |             -- -- --                                                                  
+2026-09-27 16:02:05.800 | INFO | No question mark above current fleet on this radar                                    
+2026-09-27 16:02:05.801 | INFO | <<< FLEET SET TO 1 >>>                                                                
+2026-09-27 16:02:05.807 | INFO | It is fleet 1 already                                                                 
+───────────────────────────────────────────────── MAP RESCAN CURRENT ──────────────────────────────────────────────────
+2026-09-27 16:02:05.809 | INFO | MAP RESCAN CURRENT                                                                    
+2026-09-27 16:02:05.811 | INFO | Load map_data, has_loop=False, use_loop=False                                         
+2026-09-27 16:02:05.813 | INFO | Load spawn_data, has_loop=False, use_loop=False                                       
+2026-09-27 16:02:05.813 | INFO | grid_connection: wall=False, portal=False                                             
+2026-09-27 16:02:05.817 | INFO | Load mechanism, land_base=False, maze=False, fortress=False, bouncing_enemy=False     
+2026-09-27 16:02:05.828 | INFO | [homo_storage] ((10, 7), [(110.307, 103.657), (1012.311, 103.657), (-32.959, 600.567),
+(1113.057, 600.567)])                                                                                                  
+2026-09-27 16:02:05.922 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:05.931 | INFO | 0.068s  _   edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:05.932 | INFO | Edges: /     homo_loca: ( 54,  58)                                                    
+2026-09-27 16:02:05.937 | INFO |            center_loca: (2, 3)                                                        
+2026-09-27 16:02:05.939 | INFO | [view.center_offset] [0.50175757 0.50640643]                                          
+2026-09-27 16:02:05.940 | INFO |       camera_corrected: A1 -> C4                                                      
+2026-09-27 16:02:05.940 | INFO |                 Camera: C4                                                            
+2026-09-27 16:02:05.974 | INFO | 0.033s         predict: 58                                                            
+2026-09-27 16:02:05.975 | INFO | -- -- -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:05.977 | INFO | -- -- -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:05.979 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:05.979 | INFO | -- -- FL -- -- -- -- -- ..                                                            
+2026-09-27 16:02:05.980 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:05.981 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:05.981 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:05.983 | INFO | No map event                                                                          
+─────────────────────────────────────────────────── MAP RESCAN FULL ───────────────────────────────────────────────────
+2026-09-27 16:02:05.984 | INFO | MAP RESCAN FULL                                                                       
+2026-09-27 16:02:05.984 | INFO | <<< MAP INIT >>>                                                                      
+2026-09-27 16:02:05.985 | INFO | Load map_data, has_loop=False, use_loop=False                                         
+2026-09-27 16:02:05.987 | INFO | Load spawn_data, has_loop=False, use_loop=False                                       
+2026-09-27 16:02:05.988 | INFO | grid_connection: wall=False, portal=False                                             
+2026-09-27 16:02:05.989 | INFO | Load mechanism, land_base=False, maze=False, fortress=False, bouncing_enemy=False     
+2026-09-27 16:02:06.048 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:06.057 | INFO | 0.060s  _   edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:06.059 | INFO | Edges: /     homo_loca: ( 54,  58)                                                    
+2026-09-27 16:02:06.063 | INFO |            center_loca: (2, 3)                                                        
+2026-09-27 16:02:06.064 | INFO | [view.center_offset] [0.50175757 0.50640643]                                          
+2026-09-27 16:02:06.065 | INFO |                 Camera: C4                                                            
+2026-09-27 16:02:06.100 | INFO | 0.033s         predict: 58                                                            
+2026-09-27 16:02:06.100 | INFO | -- -- -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:06.102 | INFO | -- -- -- -- -- -- -- -- --                                                            
+2026-09-27 16:02:06.102 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:06.104 | INFO | -- -- FL -- -- -- -- -- ..                                                            
+2026-09-27 16:02:06.105 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:06.107 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:06.108 | INFO | -- -- -- -- -- -- -- -- ..                                                            
+2026-09-27 16:02:06.111 | INFO | [HP]  98%  98%  98%  43%  93%  98%                                                    
+2026-09-27 16:02:06.115 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:02:06.116 | INFO | Ensure edge in sight.                                                                 
+2026-09-27 16:02:06.117 | INFO | <<< MAP RESCAN E2 >>>                                                                 
+2026-09-27 16:02:06.119 | INFO | Focus to: E2                                                                          
+2026-09-27 16:02:06.120 | INFO | Map swipe: (2, -2)                                                                    
+2026-09-27 16:02:06.122 | INFO | Swipe ( 699,  313) -> ( 477,  471)                                                    
+2026-09-27 16:02:06.480 | INFO | [prev.center_offset] [0.50175757 0.50640643]                                          
+2026-09-27 16:02:06.537 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:06.545 | INFO | 0.056s  _   edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:06.547 | INFO | Edges: /     homo_loca: (136, 120)                                                    
+2026-09-27 16:02:06.551 | INFO |            center_loca: (2, 3)                                                        
+2026-09-27 16:02:06.552 | INFO | [view.center_offset] [0.91604315 0.06354947]                                          
+2026-09-27 16:02:06.616 | INFO |            tile_center: 0.955 (good match)                                            
+2026-09-27 16:02:06.625 | INFO | 0.064s  _   edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:06.627 | INFO | Edges: / \   homo_loca: (134, 122)                                                    
+2026-09-27 16:02:06.631 | INFO |            center_loca: (3, 2)                                                        
+2026-09-27 16:02:06.633 | INFO | [view.center_offset] [0.93032894 0.04926366]                                          
+2026-09-27 16:02:06.708 | INFO |            tile_center: 0.955 (good match)                                            
+2026-09-27 16:02:06.721 | INFO | 0.078s  _   edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:06.723 | INFO | Edges: / \   homo_loca: ( 63,  49)                                                    
+2026-09-27 16:02:06.730 | INFO |            center_loca: (4, 1)                                                        
+2026-09-27 16:02:06.731 | INFO | [view.center_offset] [0.4374719 0.570692 ]                                            
+2026-09-27 16:02:06.735 | INFO |                 Camera: E2                                                            
+2026-09-27 16:02:06.736 | INFO |                 Camera: E2                                                            
+2026-09-27 16:02:06.775 | INFO | 0.038s         predict: 40                                                            
+2026-09-27 16:02:06.777 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:06.779 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:06.780 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:06.781 | INFO | -- -- FL -- -- -- -- --                                                               
+2026-09-27 16:02:06.783 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:06.784 | INFO | Map swipe: (0, 0)                                                                     
+2026-09-27 16:02:06.785 | INFO | No map event                                                                          
+2026-09-27 16:02:06.788 | INFO | <<< MAP RESCAN E7 >>>                                                                 
+2026-09-27 16:02:06.790 | INFO | Focus to: E7                                                                          
+2026-09-27 16:02:06.790 | INFO | Map swipe: (0, 5)                                                                     
+2026-09-27 16:02:06.793 | INFO | Swipe ( 672,  582) -> ( 665,  195)                                                    
+2026-09-27 16:02:07.212 | INFO | [prev.center_offset] [0.4374719 0.570692 ]                                            
+2026-09-27 16:02:07.269 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:07.281 | INFO | 0.061s  _   edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:07.283 | INFO | Edges: / \   homo_loca: ( 61,  35)                                                    
+2026-09-27 16:02:07.288 | INFO |            center_loca: (4, 3)                                                        
+2026-09-27 16:02:07.288 | INFO | [view.center_offset] [0.45175747 0.67069233]                                          
+2026-09-27 16:02:07.289 | INFO |                 Camera: E7                                                            
+2026-09-27 16:02:07.291 | INFO |       camera_corrected: E7 -> E4                                                      
+2026-09-27 16:02:07.292 | INFO |                 Camera: E4                                                            
+2026-09-27 16:02:07.338 | INFO | 0.045s         predict: 56                                                            
+2026-09-27 16:02:07.339 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.340 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.340 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.343 | INFO | -- -- FL -- -- -- -- --                                                               
+2026-09-27 16:02:07.344 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.344 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.345 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.348 | INFO | Map swipe: (0, 3)                                                                     
+2026-09-27 16:02:07.348 | INFO | Swipe ( 723,  533) -> ( 718,  312)                                                    
+2026-09-27 16:02:07.685 | INFO | [prev.center_offset] [0.45175747 0.67069233]                                          
+2026-09-27 16:02:07.800 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:07.817 | INFO | 0.117s      edge_lines: 0 hori, 2 vert                                                
+2026-09-27 16:02:07.819 | INFO | Edges: / \   homo_loca: ( 49,  39)                                                    
+2026-09-27 16:02:07.827 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:07.828 | INFO | [view.center_offset] [0.53747176 0.64212076]                                          
+2026-09-27 16:02:07.829 | INFO |                 Camera: E7                                                            
+2026-09-27 16:02:07.832 | INFO |                 Camera: E7                                                            
+2026-09-27 16:02:07.877 | INFO | 0.044s         predict: 63                                                            
+2026-09-27 16:02:07.879 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.880 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.881 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.883 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.884 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.884 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.885 | INFO | LT -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.887 | INFO | .. -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:07.888 | INFO | Map swipe: (0, 0)                                                                     
+2026-09-27 16:02:07.888 | INFO | Found logging tower on A7                                                             
+2026-09-27 16:02:07.890 | INFO | Click ( 181,  509) @ A7                                                               
+2026-09-27 16:02:07.944 | INFO | <<< WAIT UNTIL WALK STABLE >>>                                                        
+2026-09-27 16:02:07.945 | INFO | Screenshot interval set to 0.35s                                                      
+2026-09-27 16:02:08.137 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:08.148 | INFO | 0.071s      edge_lines: 0 hori, 2 vert                                                
+2026-09-27 16:02:08.151 | INFO | Edges: / \   homo_loca: ( 47, 127)                                                    
+2026-09-27 16:02:08.156 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:08.157 | INFO | [homo_loca] [ 47 127]                                                                 
+2026-09-27 16:02:08.471 | INFO |            tile_center: 0.968 (good match)                                            
+2026-09-27 16:02:08.480 | INFO | 0.070s      edge_lines: 0 hori, 2 vert                                                
+2026-09-27 16:02:08.482 | INFO | Edges: / \   homo_loca: ( 17,  87)                                                    
+2026-09-27 16:02:08.487 | INFO |            center_loca: (3, 4)                                                        
+2026-09-27 16:02:08.488 | INFO | [homo_loca] [17 87]                                                                   
+2026-09-27 16:02:08.824 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:08.833 | INFO | 0.072s  _   edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:08.835 | INFO | Edges: /     homo_loca: ( 52,  31)                                                    
+2026-09-27 16:02:08.842 | INFO |            center_loca: (2, 4)                                                        
+2026-09-27 16:02:08.844 | INFO | [homo_loca] [52 31]                                                                   
+2026-09-27 16:02:09.206 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:09.220 | INFO | 0.100s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:09.220 | INFO | Edges: /     homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:09.229 | INFO |            center_loca: (2, 4)                                                        
+2026-09-27 16:02:09.232 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:09.509 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:09.516 | INFO | 0.059s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:09.517 | INFO | Edges: /     homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:09.524 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:09.525 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:09.871 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:09.880 | INFO | 0.068s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:09.881 | INFO | Edges: /     homo_loca: ( 50, 120)                                                    
+2026-09-27 16:02:09.887 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:09.888 | INFO | [homo_loca] [ 50 120]                                                                 
+2026-09-27 16:02:10.212 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:10.220 | INFO | 0.059s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:10.221 | INFO | Edges: /     homo_loca: ( 53,   5)                                                    
+2026-09-27 16:02:10.227 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:10.228 | INFO | [homo_loca] [53  5]                                                                   
+2026-09-27 16:02:10.576 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:10.587 | INFO | 0.074s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:10.588 | INFO | Edges: /     homo_loca: ( 52,  31)                                                    
+2026-09-27 16:02:10.596 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:10.596 | INFO | [homo_loca] [52 31]                                                                   
+2026-09-27 16:02:10.935 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:10.947 | INFO | 0.079s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:10.948 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:10.956 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:10.957 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:11.277 | INFO |            tile_center: 0.920 (good match)                                            
+2026-09-27 16:02:11.289 | INFO | 0.077s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:11.291 | INFO | Edges: /     homo_loca: ( 52,  92)                                                    
+2026-09-27 16:02:11.297 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:11.300 | INFO | [homo_loca] [52 92]                                                                   
+2026-09-27 16:02:11.620 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:11.627 | INFO | 0.062s      edge_lines: 2 hori, 1 vert                                                
+2026-09-27 16:02:11.629 | INFO | Edges: /_    homo_loca: ( 53, 118)                                                    
+2026-09-27 16:02:11.633 | INFO |            center_loca: (1, 4)                                                        
+2026-09-27 16:02:11.635 | INFO | [homo_loca] [ 53 118]                                                                 
+2026-09-27 16:02:11.993 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:12.009 | INFO | 0.089s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:12.011 | INFO | Edges: /_    homo_loca: (133,  58)                                                    
+2026-09-27 16:02:12.020 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:12.022 | INFO | [homo_loca] [133  58]                                                                 
+2026-09-27 16:02:12.349 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:12.362 | INFO | 0.088s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:12.363 | INFO | Edges: /_    homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:12.368 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:12.369 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:12.669 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:12.680 | INFO | 0.063s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:12.680 | INFO | Edges: /_    homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:12.685 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:12.688 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:13.024 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:13.033 | INFO | 0.061s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:13.034 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:13.038 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:13.040 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:13.371 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:13.379 | INFO | 0.059s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:13.380 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:13.384 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:13.385 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:13.727 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:13.735 | INFO | 0.062s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:13.736 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:13.740 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:13.740 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:14.072 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:14.080 | INFO | 0.057s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:14.082 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:14.086 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:14.086 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:14.087 | INFO | Walk stabled, result:                                                                 
+2026-09-27 16:02:14.089 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:02:14.089 | INFO | <<< MAP RESCAN E10 >>>                                                                
+2026-09-27 16:02:14.090 | INFO | Focus to: E10                                                                         
+2026-09-27 16:02:14.092 | INFO | Map swipe: (0, 3)                                                                     
+2026-09-27 16:02:14.093 | INFO | Swipe ( 690,  440) -> ( 692,  204)                                                    
+2026-09-27 16:02:14.415 | INFO | [prev.center_offset] [0.51604315 0.50640643]                                          
+2026-09-27 16:02:14.508 | INFO |            tile_center: 0.955 (good match)                                            
+2026-09-27 16:02:14.520 | INFO | 0.090s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:14.523 | INFO | Edges: /_    homo_loca: ( 53,  23)                                                    
+2026-09-27 16:02:14.529 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:14.531 | INFO | [view.center_offset] [0.50890047 0.7564065 ]                                          
+2026-09-27 16:02:14.533 | INFO |                 Camera: E10                                                           
+2026-09-27 16:02:14.535 | INFO |       camera_corrected: E10 -> A11                                                    
+2026-09-27 16:02:14.536 | INFO |                 Camera: A11                                                           
+2026-09-27 16:02:14.573 | INFO | 0.036s         predict: 45                                                            
+2026-09-27 16:02:14.575 | INFO | -- -- -- -- -- -- --                                                                  
+2026-09-27 16:02:14.576 | INFO | -- -- -- -- -- -- --                                                                  
+2026-09-27 16:02:14.578 | INFO | LT -- -- -- -- -- --                                                                  
+2026-09-27 16:02:14.580 | INFO | -- -- -- -- -- -- ..                                                                  
+2026-09-27 16:02:14.580 | INFO | FL -- -- -- -- -- ..                                                                  
+2026-09-27 16:02:14.582 | INFO | -- -- -- -- -- -- ..                                                                  
+2026-09-27 16:02:14.583 | INFO | -- -- -- -- -- -- ..                                                                  
+2026-09-27 16:02:14.586 | INFO | Map swipe: (4, -1)                                                                    
+2026-09-27 16:02:14.586 | INFO | Swipe ( 914,  348) -> ( 473,  446)                                                    
+2026-09-27 16:02:15.080 | INFO | [prev.center_offset] [0.50890047 0.7564065 ]                                          
+2026-09-27 16:02:15.137 | INFO |            tile_center: 0.937 (good match)                                            
+2026-09-27 16:02:15.145 | INFO | 0.056s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:15.147 | INFO | Edges: /_    homo_loca: ( 97,  57)                                                    
+2026-09-27 16:02:15.150 | INFO |            center_loca: (3, 4)                                                        
+2026-09-27 16:02:15.152 | INFO | [view.center_offset] [0.19461475 0.51354922]                                          
+2026-09-27 16:02:15.212 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:15.220 | INFO | 0.058s      edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:15.221 | INFO | Edges: /_\   homo_loca: (116,  99)                                                    
+2026-09-27 16:02:15.227 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:15.228 | INFO | [view.center_offset] [0.05890053 0.21354915]                                          
+2026-09-27 16:02:15.297 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:15.311 | INFO | 0.073s      edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:15.313 | INFO | Edges: /_\   homo_loca: ( 81, 111)                                                    
+2026-09-27 16:02:15.320 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:15.322 | INFO | [view.center_offset] [0.30890051 0.12783484]                                          
+2026-09-27 16:02:15.407 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:15.420 | INFO | 0.087s      edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:15.422 | INFO | Edges: /_\   homo_loca: ( 81, 111)                                                    
+2026-09-27 16:02:15.428 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:15.429 | INFO | [view.center_offset] [0.30890051 0.12783484]                                          
+2026-09-27 16:02:15.432 | INFO |                 Camera: E10                                                           
+2026-09-27 16:02:15.433 | INFO |       camera_corrected: E10 -> E13                                                    
+2026-09-27 16:02:15.435 | INFO |                 Camera: E13                                                           
+2026-09-27 16:02:15.467 | INFO | 0.031s         predict: 40                                                            
+2026-09-27 16:02:15.469 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.472 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.473 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.473 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.475 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.476 | INFO | Map swipe: (0, -3)                                                                    
+2026-09-27 16:02:15.477 | INFO | Swipe ( 705,  291) -> ( 683,  504)                                                    
+2026-09-27 16:02:15.815 | INFO | [prev.center_offset] [0.30890051 0.12783484]                                          
+2026-09-27 16:02:15.895 | INFO |            tile_center: 0.929 (good match)                                            
+2026-09-27 16:02:15.909 | INFO | 0.081s      edge_lines: 1 hori, 2 vert                                                
+2026-09-27 16:02:15.909 | INFO | Edges: /_\   homo_loca: ( 73,  29)                                                    
+2026-09-27 16:02:15.915 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:15.916 | INFO | [view.center_offset] [0.36604328 0.71354936]                                          
+2026-09-27 16:02:15.917 | INFO |                 Camera: E10                                                           
+2026-09-27 16:02:15.920 | INFO |       camera_corrected: E10 -> E12                                                    
+2026-09-27 16:02:15.920 | INFO |                 Camera: E12                                                           
+2026-09-27 16:02:15.955 | INFO | 0.033s         predict: 48                                                            
+2026-09-27 16:02:15.956 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.958 | INFO | LT -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.958 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.960 | INFO | FL -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.962 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.962 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:15.963 | INFO | Map swipe: (0, -2)                                                                    
+2026-09-27 16:02:15.966 | INFO | Swipe ( 426,  297) -> ( 411,  469)                                                    
+2026-09-27 16:02:16.279 | INFO | [prev.center_offset] [0.36604328 0.71354936]                                          
+2026-09-27 16:02:16.336 | INFO |            tile_center: 0.939 (good match)                                            
+2026-09-27 16:02:16.346 | INFO | 0.058s      edge_lines: 0 hori, 2 vert                                                
+2026-09-27 16:02:16.346 | INFO | Edges: / \   homo_loca: ( 54,  53)                                                    
+2026-09-27 16:02:16.351 | INFO |            center_loca: (4, 4)                                                        
+2026-09-27 16:02:16.352 | INFO | [view.center_offset] [0.50175748 0.54212063]                                          
+2026-09-27 16:02:16.353 | INFO |                 Camera: E10                                                           
+2026-09-27 16:02:16.355 | INFO |                 Camera: E10                                                           
+2026-09-27 16:02:16.387 | INFO | 0.031s         predict: 63                                                            
+2026-09-27 16:02:16.389 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.389 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.391 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.392 | INFO | LT -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.392 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.393 | INFO | FL -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.395 | INFO | -- -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.395 | INFO | .. -- -- -- -- -- -- --                                                               
+2026-09-27 16:02:16.396 | INFO | Map swipe: (0, 0)                                                                     
+2026-09-27 16:02:16.397 | INFO | Found logging tower on A4                                                             
+2026-09-27 16:02:16.399 | INFO | Click ( 242,  284) @ A4                                                               
+2026-09-27 16:02:16.452 | INFO | <<< WAIT UNTIL WALK STABLE >>>                                                        
+2026-09-27 16:02:16.453 | INFO | Screenshot interval set to 0.35s                                                      
+2026-09-27 16:02:16.748 | INFO |            tile_center: 0.968 (good match)                                            
+2026-09-27 16:02:16.764 | INFO | 0.100s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:16.765 | INFO | Edges:   \   homo_loca: ( 36,  72)                                                    
+2026-09-27 16:02:16.775 | INFO |            center_loca: (5, 4)                                                        
+2026-09-27 16:02:16.778 | INFO | [homo_loca] [36 72]                                                                   
+2026-09-27 16:02:17.060 | INFO |            tile_center: 0.955 (good match)                                            
+2026-09-27 16:02:17.071 | INFO | 0.066s      edge_lines: 0 hori, 2 vert                                                
+2026-09-27 16:02:17.072 | INFO | Edges: / \   homo_loca: ( 77, 113)                                                    
+2026-09-27 16:02:17.077 | INFO |            center_loca: (3, 4)                                                        
+2026-09-27 16:02:17.080 | INFO | [homo_loca] [ 77 113]                                                                 
+2026-09-27 16:02:17.415 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:17.423 | INFO | 0.066s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:17.425 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:17.429 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:17.431 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:17.755 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:17.766 | INFO | 0.067s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:17.767 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:17.773 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:17.774 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:18.113 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:18.121 | INFO | 0.064s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:18.124 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:18.128 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:18.129 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:18.453 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:18.461 | INFO | 0.057s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:18.462 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:18.467 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:18.468 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:18.843 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:18.858 | INFO | 0.102s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:18.860 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:18.869 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:18.872 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:19.163 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:19.173 | INFO | 0.066s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:19.175 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:19.180 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:19.181 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:19.184 | INFO | Walk stabled, result:                                                                 
+2026-09-27 16:02:19.184 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:02:19.185 | INFO | Map rescan once end, result=False                                                     
+2026-09-27 16:02:19.187 | INFO | [Solved_map_event] set()                                                              
+2026-09-27 16:02:19.188 | INFO | <<< FLEET SET TO 1 >>>                                                                
+2026-09-27 16:02:19.252 | INFO | Ensure fleet to be 1                                                                  
+2026-09-27 16:02:19.256 | INFO | Click ( 292,  658) @ FLEET_CHOOSE                                                     
+2026-09-27 16:02:19.725 | INFO | Click ( 243,  600) @ FLEET_BAR_INDEX_1                                                
+2026-09-27 16:02:20.128 | INFO | <<< WAIT UNTIL CAMERA STABLE >>>                                                      
+2026-09-27 16:02:20.181 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:20.189 | INFO | 0.060s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:20.191 | INFO | Edges: /     homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:20.196 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:20.196 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:20.385 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:20.394 | INFO | 0.066s      edge_lines: 0 hori, 1 vert                                                
+2026-09-27 16:02:20.395 | INFO | Edges: /     homo_loca: ( 53,  14)                                                    
+2026-09-27 16:02:20.401 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:20.402 | INFO | [homo_loca] [53 14]                                                                   
+2026-09-27 16:02:20.584 | INFO |            tile_center: 0.955 (good match)                                            
+2026-09-27 16:02:20.592 | INFO | 0.064s      edge_lines: 2 hori, 1 vert                                                
+2026-09-27 16:02:20.594 | INFO | Edges: /_    homo_loca: ( 53, 120)                                                    
+2026-09-27 16:02:20.598 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:20.599 | INFO | [homo_loca] [ 53 120]                                                                 
+2026-09-27 16:02:20.783 | INFO |            tile_center: 0.942 (good match)                                            
+2026-09-27 16:02:20.792 | INFO | 0.062s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:20.793 | INFO | Edges: /_    homo_loca: ( 53,  58)                                                    
+2026-09-27 16:02:20.797 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:20.800 | INFO | [homo_loca] [53 58]                                                                   
+2026-09-27 16:02:20.985 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:20.997 | INFO | 0.067s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:20.999 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:21.005 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:21.007 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:21.228 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:21.239 | INFO | 0.104s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:21.241 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:21.248 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:21.249 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:21.393 | INFO |            tile_center: 0.953 (good match)                                            
+2026-09-27 16:02:21.402 | INFO | 0.068s      edge_lines: 1 hori, 1 vert                                                
+2026-09-27 16:02:21.404 | INFO | Edges: /_    homo_loca: ( 52,  58)                                                    
+2026-09-27 16:02:21.409 | INFO |            center_loca: (0, 4)                                                        
+2026-09-27 16:02:21.409 | INFO | [homo_loca] [52 58]                                                                   
+2026-09-27 16:02:21.412 | INFO | Camera stabled                                                                        
+────────────────────────────────────────────────── AFTER AUTO SEARCH ──────────────────────────────────────────────────
+2026-09-27 16:02:21.414 | INFO | AFTER AUTO SEARCH                                                                     
+2026-09-27 16:02:21.416 | INFO | No EMP debuff on current fleet                                                        
+2026-09-27 16:02:21.419 | INFO | [HP]  98%  98%  98%  43%  93%  98%                                                    
+2026-09-27 16:02:21.423 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:02:21.423 | INFO | No ship found to be below threshold 40%, continue OS exploration                      
+2026-09-27 16:02:21.426 | INFO | Handle after auto search finished, solved=False                                       
+2026-09-27 16:02:21.432 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:02:21.433 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:02:21.435 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:02:21.436 | INFO | [OS_ACTION_POINT_PRESERVE] 200                                                        
+2026-09-27 16:02:21.469 | INFO | [SHOP_YELLOW_COINS 0.032s] 219217                                                     
+2026-09-27 16:02:21.532 | INFO | [MAP_NAME 0.062s] 西大陆架D-安全海域                                                  
+2026-09-27 16:02:21.535 | INFO | Map name processed: 西大陆架D                                                         
+2026-09-27 16:02:21.536 | INFO | [Zone] [44|West Continental Shelf D]                                                  
+2026-09-27 16:02:21.539 | INFO | Click ( 893,   39) @ ACTION_POINT_REMAIN_OS                                           
+2026-09-27 16:02:22.075 | INFO | [Amount_ocr 0.072s] [1825, 24, 1, 0]                                                  
+2026-09-27 16:02:22.102 | INFO | [ACTION_POINT_REMAIN 0.027s] 49                                                       
+2026-09-27 16:02:22.105 | INFO | Action points: 49(579), oil: 1825                                                     
+2026-09-27 16:02:22.106 | INFO | Click ( 770,  333) @ ACTION_POINT_GRID_2_0                                            
+2026-09-27 16:02:22.469 | INFO | Click ( 838,  558) @ ACTION_POINT_USE                                                 
+2026-09-27 16:02:22.903 | INFO | [Amount_ocr 0.072s] [1825, 24, 1, 0]                                                  
+2026-09-27 16:02:22.930 | INFO | [ACTION_POINT_REMAIN 0.024s] 49                                                       
+2026-09-27 16:02:22.932 | INFO | Action points: 49(579), oil: 1825                                                     
+2026-09-27 16:02:23.112 | INFO | [Amount_ocr 0.076s] [1825, 24, 0, 0]                                                  
+2026-09-27 16:02:23.138 | INFO | [ACTION_POINT_REMAIN 0.024s] 99                                                       
+2026-09-27 16:02:23.139 | INFO | Action points: 99(579), oil: 1825                                                     
+2026-09-27 16:02:23.141 | INFO | Having enough action points                                                           
+2026-09-27 16:02:23.143 | INFO | Click ( 432,  546) @ ACTION_POINT_CANCEL                                              
+══════════════════════════════════════════ OS HAZARD 1 LEVELING, ZONE_ID=44 ═══════════════════════════════════════════
+2026-09-27 16:02:23.636 | INFO | OS HAZARD 1 LEVELING, ZONE_ID=44                                                      
+2026-09-27 16:02:23.637 | INFO | <<< FLEET SET TO 1 >>>                                                                
+2026-09-27 16:02:23.642 | INFO | It is fleet 1 already                                                                 
+───────────────────────────────────────────────── RUN STRATEGY SEARCH ─────────────────────────────────────────────────
+2026-09-27 16:02:23.643 | INFO | RUN STRATEGY SEARCH                                                                   
+2026-09-27 16:02:23.644 | INFO | <<< STRATEGIC SEARCH START >>>                                                        
+2026-09-27 16:02:23.645 | INFO | Strategic search enter                                                                
+2026-09-27 16:02:23.649 | INFO | Click (1258,  605) @ STRATEGIC_SEARCH_MAP_OPTION_OFF                                  
+2026-09-27 16:02:24.239 | INFO | Strategic search set tab                                                              
+2026-09-27 16:02:24.240 | INFO | Strategic search set option                                                           
+2026-09-27 16:02:24.240 | INFO | [zone_mode] repeat                                                                    
+2026-09-27 16:02:24.242 | INFO | [encounter_merchant] stop                                                             
+2026-09-27 16:02:24.243 | INFO | STRATEGIC_SEARCH_SCROLL_AREA set to 0.5                                               
+2026-09-27 16:02:24.244 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (34.5-35.0)/(193-70)                              
+2026-09-27 16:02:24.244 | INFO | Swipe ( 910,  308) -> ( 909,  368)                                                    
+2026-09-27 16:02:24.486 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (34.5-35.0)/(193-70)                              
+2026-09-27 16:02:24.689 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.44 (88.38235294117646-34.0)/(193-68)                 
+2026-09-27 16:02:24.697 | INFO | [encounter_device] stop                                                               
+2026-09-27 16:02:24.698 | INFO | STRATEGIC_SEARCH_SCROLL_AREA set to 1.0                                               
+2026-09-27 16:02:24.701 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.44 (88.38235294117646-34.0)/(193-68)                 
+2026-09-27 16:02:24.703 | INFO | Swipe ( 909,  361) -> ( 910,  506)                                                    
+2026-09-27 16:02:25.021 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.00 (nan-0.0)/(193-0)                                 
+2026-09-27 16:02:25.224 | INFO | [STRATEGIC_SEARCH_SCROLL_AREA] 0.98 (156.5-34.0)/(193-68)                             
+2026-09-27 16:02:25.225 | INFO | [auto_submit] on                                                                      
+2026-09-27 16:02:25.228 | INFO | Strategic search confirm                                                              
+2026-09-27 16:02:25.230 | INFO | Click ( 762,  523) @ POPUP_CONFIRM_STRATEGIC_SEARCH                                   
+─────────────────────────────────────────────────── OS AUTO SEARCH ────────────────────────────────────────────────────
+2026-09-27 16:02:27.238 | INFO | OS AUTO SEARCH                                                                        
+2026-09-27 16:02:31.066 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:02:31.068 | INFO | [battle_count] 1                                                                      
+2026-09-27 16:02:31.077 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:02:31.080 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:02:31.081 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:02:31.083 | INFO | Auto search combat loading                                                            
+2026-09-27 16:02:31.084 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:02:39.070 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:02:39.071 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:02:45.071 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:02:51.084 | WARNING | Battle Status D                                                                    
+2026-09-27 16:02:51.484 | INFO | Click (1023,  646) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:02:53.085 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:02:53.087 | INFO | Combat end.                                                                           
+2026-09-27 16:02:53.089 | INFO | [HP]  98%  98%  98%  42%  93%  98%                                                    
+2026-09-27 16:02:53.092 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:02:58.320 | INFO | [Loading] 5%                                                                          
+2026-09-27 16:02:58.321 | INFO | [battle_count] 2                                                                      
+2026-09-27 16:02:58.329 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:02:58.331 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:02:58.332 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:02:58.332 | INFO | Auto search combat loading                                                            
+2026-09-27 16:02:58.333 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:03:06.328 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:03:06.329 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:03:11.332 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:03:18.372 | WARNING | Battle Status D                                                                    
+2026-09-27 16:03:18.791 | INFO | Click (1021,  650) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:03:20.345 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:03:20.347 | INFO | Combat end.                                                                           
+2026-09-27 16:03:20.349 | INFO | [HP]  98%  98%  98%  37%  92%  98%                                                    
+2026-09-27 16:03:20.353 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:03:27.802 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:03:27.806 | INFO | [battle_count] 3                                                                      
+2026-09-27 16:03:27.808 | INFO | [CL1 time cost] 56.74s/round                                                          
+2026-09-27 16:03:27.821 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:03:27.824 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:03:27.825 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:03:27.827 | INFO | Auto search combat loading                                                            
+2026-09-27 16:03:27.828 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:03:35.804 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:03:35.804 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:03:40.807 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:03:48.821 | WARNING | Battle Status D                                                                    
+2026-09-27 16:03:49.235 | INFO | Click (1032,  655) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:03:49.816 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:03:49.817 | INFO | Combat end.                                                                           
+2026-09-27 16:03:49.820 | INFO | [HP]  98%  98%  98%  37%  92%  98%                                                    
+2026-09-27 16:03:49.824 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:03:53.843 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:03:53.845 | INFO | [battle_count] 4                                                                      
+2026-09-27 16:03:53.852 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:03:53.853 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:03:53.855 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:03:53.856 | INFO | Auto search combat loading                                                            
+2026-09-27 16:03:53.856 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:04:01.850 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:04:01.851 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:04:07.853 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:04:21.873 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:04:21.875 | INFO | Combat end.                                                                           
+2026-09-27 16:04:25.901 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:04:25.904 | INFO | [battle_count] 5                                                                      
+2026-09-27 16:04:25.905 | INFO | [CL1 time cost] 58.1s/round                                                           
+2026-09-27 16:04:25.915 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:04:25.916 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:04:25.917 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:04:25.918 | INFO | Auto search combat loading                                                            
+2026-09-27 16:04:25.920 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:04:33.907 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:04:33.909 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:04:39.909 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:04:47.921 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:04:47.924 | INFO | Combat end.                                                                           
+2026-09-27 16:04:51.754 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:04:51.756 | INFO | [battle_count] 6                                                                      
+2026-09-27 16:04:51.773 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:04:51.776 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:04:51.777 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:04:51.780 | INFO | Auto search combat loading                                                            
+2026-09-27 16:04:51.782 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:04:59.752 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:04:59.752 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:05:04.755 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:05:12.776 | WARNING | Battle Status D                                                                    
+2026-09-27 16:05:13.112 | INFO | Click (1024,  664) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:05:13.778 | WARNING | Battle Status D                                                                    
+2026-09-27 16:05:14.125 | INFO | Click (1030,  666) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:05:14.775 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:05:14.776 | INFO | Combat end.                                                                           
+2026-09-27 16:05:14.778 | INFO | [HP]  98%  98%  98%  39%  92%  98%                                                    
+2026-09-27 16:05:14.782 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:05:20.812 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:05:20.815 | INFO | [battle_count] 7                                                                      
+2026-09-27 16:05:20.816 | INFO | [CL1 time cost] 54.91s/round                                                          
+2026-09-27 16:05:20.824 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:05:20.824 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:05:20.825 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:05:20.827 | INFO | Auto search combat loading                                                            
+2026-09-27 16:05:20.828 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:05:28.818 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:05:28.819 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:05:33.820 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:05:42.836 | WARNING | Battle Status D                                                                    
+2026-09-27 16:05:43.215 | INFO | Click (1038,  660) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:05:43.845 | WARNING | Battle Status D                                                                    
+2026-09-27 16:05:44.219 | INFO | Click (1016,  674) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:05:44.840 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:05:44.842 | INFO | Combat end.                                                                           
+2026-09-27 16:05:44.848 | INFO | [HP]  98%  98%  98%  36%  92%  98%                                                    
+2026-09-27 16:05:44.852 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:05:46.049 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:05:46.051 | INFO | [battle_count] 8                                                                      
+2026-09-27 16:05:46.064 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:05:46.065 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:05:46.067 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:05:46.068 | INFO | Auto search combat loading                                                            
+2026-09-27 16:05:46.069 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:05:54.051 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:05:54.053 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:05:59.055 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:06:07.076 | WARNING | Battle Status D                                                                    
+2026-09-27 16:06:07.449 | INFO | Click (1020,  658) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:06:08.068 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:06:08.069 | INFO | Combat end.                                                                           
+2026-09-27 16:06:08.072 | INFO | [HP]   0%   0%   0%   0%   0%   0%                                                    
+2026-09-27 16:06:08.075 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:06:20.949 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:06:20.952 | INFO | [battle_count] 9                                                                      
+2026-09-27 16:06:20.953 | INFO | [CL1 time cost] 60.14s/round                                                          
+2026-09-27 16:06:20.966 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:06:20.968 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:06:20.969 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:06:20.971 | INFO | Auto search combat loading                                                            
+2026-09-27 16:06:20.972 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:06:29.956 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:06:29.957 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:06:35.960 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:06:43.020 | WARNING | Battle Status D                                                                    
+2026-09-27 16:06:43.433 | INFO | Click (1024,  669) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:06:44.971 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:06:44.972 | INFO | Combat end.                                                                           
+2026-09-27 16:06:44.976 | INFO | [HP]  98%  98%  98%  34%  92%  98%                                                    
+2026-09-27 16:06:44.979 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:06:50.604 | INFO | [Loading] 5%                                                                          
+2026-09-27 16:06:50.605 | INFO | [battle_count] 10                                                                     
+2026-09-27 16:06:50.613 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:06:50.614 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:06:50.615 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:06:50.617 | INFO | Auto search combat loading                                                            
+2026-09-27 16:06:50.617 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:06:58.611 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:06:58.613 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:07:03.615 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:07:10.627 | WARNING | Battle Status D                                                                    
+2026-09-27 16:07:10.969 | INFO | Click (1053,  666) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:07:12.628 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:07:12.630 | INFO | Combat end.                                                                           
+2026-09-27 16:07:12.633 | INFO | [HP]  98%  98%  98%  31%  90%  98%                                                    
+2026-09-27 16:07:12.637 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:07:28.531 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:07:28.532 | INFO | [battle_count] 11                                                                     
+2026-09-27 16:07:28.534 | INFO | [CL1 time cost] 67.58s/round                                                          
+2026-09-27 16:07:28.545 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:07:28.547 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:07:28.548 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:07:28.549 | INFO | Auto search combat loading                                                            
+2026-09-27 16:07:28.552 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:07:36.535 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:07:36.536 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:07:42.536 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:07:48.548 | WARNING | Battle Status D                                                                    
+2026-09-27 16:07:48.865 | INFO | Click (1047,  647) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:07:50.548 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:07:50.548 | INFO | Combat end.                                                                           
+2026-09-27 16:07:50.552 | INFO | [HP]  98%  98%  98%  31%  90%  98%                                                    
+2026-09-27 16:07:50.554 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:07:51.962 | INFO | [Loading] 5%                                                                          
+2026-09-27 16:07:51.964 | INFO | [battle_count] 12                                                                     
+2026-09-27 16:07:51.974 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:07:51.976 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:07:51.976 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:07:51.978 | INFO | Auto search combat loading                                                            
+2026-09-27 16:07:51.979 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:07:59.968 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:07:59.970 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:08:05.972 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:08:12.981 | WARNING | Battle Status D                                                                    
+2026-09-27 16:08:13.322 | INFO | Click (1023,  651) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:08:13.996 | WARNING | Battle Status D                                                                    
+2026-09-27 16:08:14.377 | INFO | Click (1023,  662) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:08:14.984 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:08:14.984 | INFO | Combat end.                                                                           
+2026-09-27 16:08:14.986 | INFO | [HP]  98%  98%  98%  28%  90%  98%                                                    
+2026-09-27 16:08:14.989 | INFO | [Repair icon] [False, False, False, False, False, False]                              
+2026-09-27 16:08:22.031 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:08:22.034 | INFO | [battle_count] 13                                                                     
+2026-09-27 16:08:22.035 | INFO | [CL1 time cost] 53.5s/round                                                           
+2026-09-27 16:08:22.048 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:08:22.049 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:08:22.051 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:08:22.052 | INFO | Auto search combat loading                                                            
+2026-09-27 16:08:22.054 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:08:30.031 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:08:30.033 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:08:36.035 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:08:45.048 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:08:45.050 | INFO | Combat end.                                                                           
+2026-09-27 16:08:49.885 | INFO | [Loading] 5%                                                                          
+2026-09-27 16:08:49.888 | INFO | [battle_count] 14                                                                     
+2026-09-27 16:08:49.900 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:08:49.900 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:08:49.902 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:08:49.904 | INFO | Auto search combat loading                                                            
+2026-09-27 16:08:49.904 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:08:57.889 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:08:57.891 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:09:02.892 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:09:11.910 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:09:11.912 | INFO | Combat end.                                                                           
+2026-09-27 16:09:25.396 | INFO | [Loading] 4%                                                                          
+2026-09-27 16:09:25.398 | INFO | [battle_count] 15                                                                     
+2026-09-27 16:09:25.399 | INFO | [CL1 time cost] 63.36s/round                                                          
+2026-09-27 16:09:25.409 | INFO | Pending tasks: ['OpsiHazard1Leveling']                                                
+2026-09-27 16:09:25.409 | INFO | [Task] OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)                              
+2026-09-27 16:09:25.411 | INFO | Continue task `OpsiHazard1Leveling (Enable, 2026-09-27 00:00:00)`                     
+2026-09-27 16:09:25.412 | INFO | Auto search combat loading                                                            
+2026-09-27 16:09:25.414 | INFO | Screenshot interval set to 1.0s                                                       
+2026-09-27 16:09:33.399 | INFO | [BattleUI] PAUSE                                                                      
+2026-09-27 16:09:33.401 | INFO | Auto Search combat execute                                                            
+2026-09-27 16:09:38.403 | INFO | Submarine call timer reached                                                          
+2026-09-27 16:09:46.457 | WARNING | Battle Status D                                                                    
+2026-09-27 16:09:46.821 | INFO | Click (1026,  637) @ BATTLE_STATUS_D                                                  
+2026-09-27 16:09:48.415 | INFO | Screenshot interval set to 0.2s                                                       
+2026-09-27 16:09:48.417 | INFO | Combat end.                                                                           
+2026-09-27 16:09:48.419 | INFO | [HP]  98%  98%  98%  27%  90%  98%                                                    
+2026-09-27 16:09:48.423 | INFO | [Repair icon] [False, False, False, True, False, False]                               
+2026-09-27 16:09:48.425 | INFO | [HP]  98%  98%  98%   0%  90%  98%                                                    
+2026-09-27 16:09:48.426 | WARNING | Fleet died, stop auto search                                                       
+2026-09-27 16:09:48.625 | INFO | Click (1223,  535) @ AUTO_SEARCH_OS_MAP_OPTION_ON                                     
+2026-09-27 16:09:49.220 | WARNING | Fleet died confirm                                                                 
+2026-09-27 16:09:49.226 | INFO | [HP]  98%  98%  98% ____  90%  98%                                                    
+2026-09-27 16:09:49.233 | INFO | [Repair icon] [False, False, False, True, False, False]                               
+2026-09-27 16:09:49.236 | INFO | [HP]  98%  98%  98%   0%  90%  98%                                                    
+─────────────────────────────────────────────────── CLEAR QUESTION ────────────────────────────────────────────────────
+2026-09-27 16:09:49.240 | INFO | CLEAR QUESTION                                                                        
+2026-09-27 16:09:49.281 | INFO |             -- -- --                                                                  
+2026-09-27 16:09:49.285 | INFO |       -- -- -- -- -- -- --                                                            
+2026-09-27 16:09:49.288 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:09:49.291 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:09:49.294 | INFO | -- -- -- -- -- -- -- -- -- -- --                                                      
+2026-09-27 16:09:49.296 | INFO | -- -- -- -- -- FL -- -- -- -- --                                                      
+2026-09-27 16:09:49.299 | INFO | -- -- -- -- -- -- -- -- -- -- --                                                      
+2026-09-27 16:09:49.303 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:09:49.305 | INFO |    -- -- -- -- -- -- -- -- --                                                         
+2026-09-27 16:09:49.308 | INFO |       -- -- -- -- -- -- --                                                            
+2026-09-27 16:09:49.312 | INFO |             -- -- --                                                                  
+2026-09-27 16:09:49.313 | INFO | No question mark above current fleet on this radar                                    
+2026-09-27 16:09:49.315 | INFO | <<< FLEET SET TO 1 >>>                                                                
+2026-09-27 16:09:49.326 | INFO | It is fleet 1 already                                                                 
+───────────────────────────────────────────────── MAP RESCAN CURRENT ──────────────────────────────────────────────────
+2026-09-27 16:09:49.331 | INFO | MAP RESCAN CURRENT                                                                    
+2026-09-27 16:09:49.335 | INFO | Load map_data, has_loop=False, use_loop=False                                         
+2026-09-27 16:09:49.337 | INFO | Load spawn_data, has_loop=False, use_loop=False                                       
+2026-09-27 16:09:49.340 | INFO | grid_connection: wall=False, portal=False                                             
+2026-09-27 16:09:49.346 | INFO | Load mechanism, land_base=False, maze=False, fortress=False, bouncing_enemy=False     
+2026-09-27 16:09:52.074 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:52.246 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:52.256 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:52.374 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:52.388 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:52.497 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:52.588 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:52.657 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:52.791 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:52.900 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:52.989 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:53.066 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:53.195 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:53.295 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:53.394 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:53.495 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:53.593 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:53.672 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:53.792 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:53.860 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:53.998 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:54.156 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:54.198 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:54.288 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:54.397 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:54.496 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:54.600 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:54.692 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:54.797 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:54.866 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:54.999 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:55.065 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:55.203 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:55.287 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:55.401 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:55.470 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:55.607 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:55.727 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:55.806 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:55.880 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:56.005 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:56.069 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:56.211 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:56.415 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:56.431 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:56.551 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:56.627 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:56.695 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:56.827 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:56.892 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:57.034 | WARNING | Image to detect is not in_map                                                      
+2026-09-27 16:09:57.121 | INFO | [Package_name] com.bilibili.azurlane                                                  
+2026-09-27 16:09:57.123 | ERROR | MapDetectionError: Image to detect is not in_map                                     
+┌───────────────────────────────────────── Traceback (most recent call last) ─────────────────────────────────────────┐
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\alas.py:69 in run                                                                             │
+│                                                                                                                     │
+│    66 │   │   try:                                                                                                  │
+│    67 │   │   │   if not skip_first_screenshot:                                                                     │
+│    68 │   │   │   │   self.device.screenshot()                                                                      │
+│ >  69 │   │   │   self.__getattribute__(command)()                                                                  │
+│    70 │   │   │   return True                                                                                       │
+│    71 │   │   except TaskEnd:                                                                                       │
+│    72 │   │   │   return True                                                                                       │
+│                                                                                                                     │
+│ ┌──────────────────────────────────── locals ────────────────────────────────────┐                                  │
+│ │               command = 'opsi_hazard1_leveling'                                │                                  │
+│ │                     e = MapDetectionError('Image to detect is not in_map')     │                                  │
+│ │                  self = <alas.AzurLaneAutoScript object at 0x000001D3C1248608> │                                  │
+│ │ skip_first_screenshot = False                                                  │                                  │
+│ └────────────────────────────────────────────────────────────────────────────────┘                                  │
+│ D:\AzurLaneAutoScript\alas.py:347 in opsi_hazard1_leveling                                                          │
+│                                                                                                                     │
+│   344 │                                                                                                             │
+│   345 │   def opsi_hazard1_leveling(self):                                                                          │
+│   346 │   │   from module.campaign.os_run import OSCampaignRun                                                      │
+│ > 347 │   │   OSCampaignRun(config=self.config, device=self.device).opsi_hazard1_leveling()                         │
+│   348 │                                                                                                             │
+│   349 │   def opsi_cross_month(self):                                                                               │
+│   350 │   │   from module.campaign.os_run import OSCampaignRun                                                      │
+│                                                                                                                     │
+│ ┌──────────────────────────────── locals ────────────────────────────────┐                                          │
+│ │ OSCampaignRun = <class 'module.campaign.os_run.OSCampaignRun'>         │                                          │
+│ │          self = <alas.AzurLaneAutoScript object at 0x000001D3C1248608> │                                          │
+│ └────────────────────────────────────────────────────────────────────────┘                                          │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\campaign\os_run.py:62 in opsi_hazard1_leveling                                         │
+│                                                                                                                     │
+│    59 │   def opsi_hazard1_leveling(self):                                                                          │
+│    60 │   │   try:                                                                                                  │
+│    61 │   │   │   campaign = self.load_campaign()                                                                   │
+│ >  62 │   │   │   campaign.os_hazard1_leveling()                                                                    │
+│    63 │   │   except ActionPointLimit:                                                                              │
+│    64 │   │   │   self.config.task_delay(server_update=True)                                                        │
+│    65                                                                                                               │
+│                                                                                                                     │
+│ ┌────────────────────────────────────── locals ──────────────────────────────────────┐                              │
+│ │ campaign = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                              │
+│ │     self = <module.campaign.os_run.OSCampaignRun object at 0x000001D423DB7848>     │                              │
+│ └────────────────────────────────────────────────────────────────────────────────────┘                              │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\os\tasks\hazard_leveling.py:66 in os_hazard1_leveling                                  │
+│                                                                                                                     │
+│   63 │   │   │   if self.zone.zone_id != zone or not self.is_zone_name_hidden:                                      │
+│   64 │   │   │   │   self.globe_goto(self.name_to_zone(zone), types='SAFE', refresh=True)                           │
+│   65 │   │   │   self.fleet_set(self.config.OpsiFleet_Fleet)                                                        │
+│ > 66 │   │   │   self.run_strategic_search()                                                                        │
+│   67 │   │   │                                                                                                      │
+│   68 │   │   │   self.handle_after_auto_search()                                                                    │
+│   69 │   │   │   self.config.check_task_switch()                                                                    │
+│                                                                                                                     │
+│ ┌───────────────────────────────────────── locals ──────────────────────────────────────────┐                       │
+│ │ keep_current_ap = True                                                                    │                       │
+│ │            self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                       │
+│ │            zone = 44                                                                      │                       │
+│ └───────────────────────────────────────────────────────────────────────────────────────────┘                       │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\os\map.py:777 in run_strategic_search                                                  │
+│                                                                                                                     │
+│   774 │   │   self._solved_map_event = set()                                                                        │
+│   775 │   │   self._solved_fleet_mechanism = False                                                                  │
+│   776 │   │   self.clear_question()                                                                                 │
+│ > 777 │   │   self.map_rescan()                                                                                     │
+│   778 │                                                                                                             │
+│   779 │   def map_rescan_current(self, drop=None):                                                                  │
+│   780 │   │   """                                                                                                   │
+│                                                                                                                     │
+│ ┌──────────────────────────────────── locals ────────────────────────────────────┐                                  │
+│ │ self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                                  │
+│ └────────────────────────────────────────────────────────────────────────────────┘                                  │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\os\map.py:948 in map_rescan                                                            │
+│                                                                                                                     │
+│   945 │   │   │   │   logger.attr('Solved_map_event', self._solved_map_event)                                       │
+│   946 │   │   │   │   self.fleet_set(self.config.OpsiFleet_Fleet)                                                   │
+│   947 │   │   │   │   return False                                                                                  │
+│ > 948 │   │   │   result = self.map_rescan_once(rescan_mode=rescan_mode, drop=drop)                                 │
+│   949 │   │   │   if not result:                                                                                    │
+│   950 │   │   │   │   logger.attr('Solved_map_event', self._solved_map_event)                                       │
+│   951 │   │   │   │   self.fleet_set(self.config.OpsiFleet_Fleet)                                                   │
+│                                                                                                                     │
+│ ┌─────────────────────────────────────── locals ────────────────────────────────────────┐                           │
+│ │           _ = 0                                                                       │                           │
+│ │        drop = None                                                                    │                           │
+│ │ rescan_mode = 'full'                                                                  │                           │
+│ │        self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                           │
+│ └───────────────────────────────────────────────────────────────────────────────────────┘                           │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\os\map.py:908 in map_rescan_once                                                       │
+│                                                                                                                     │
+│   905 │   │   logger.hr('Map rescan current', level=2)                                                              │
+│   906 │   │   self.map_data_init(map_=None)                                                                         │
+│   907 │   │   self.handle_info_bar()                                                                                │
+│ > 908 │   │   self.update()                                                                                         │
+│   909 │   │   if self.map_rescan_current(drop=drop):                                                                │
+│   910 │   │   │   logger.info(f'Map rescan once end, result={True}')                                                │
+│   911 │   │   │   return True                                                                                       │
+│                                                                                                                     │
+│ ┌─────────────────────────────────────── locals ────────────────────────────────────────┐                           │
+│ │        drop = None                                                                    │                           │
+│ │ rescan_mode = 'full'                                                                  │                           │
+│ │      result = False                                                                   │                           │
+│ │        self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                           │
+│ └───────────────────────────────────────────────────────────────────────────────────────┘                           │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\map\camera.py:298 in update                                                            │
+│                                                                                                                     │
+│   295 │   │   │                                                                                                     │
+│   296 │   │   │   # _update_view()                                                                                  │
+│   297 │   │   │   try:                                                                                              │
+│ > 298 │   │   │   │   success = self._update_view()                                                                 │
+│   299 │   │   │   │   if not success:                                                                               │
+│   300 │   │   │   │   │   continue                                                                                  │
+│   301 │   │   │   │   logger.attr('view.center_offset', self.view.center_offset)                                    │
+│                                                                                                                     │
+│ ┌─────────────────────────────────────────── locals ───────────────────────────────────────────┐                    │
+│ │        allow_error = False                                                                   │                    │
+│ │             camera = True                                                                    │                    │
+│ │      error_confirm = Timer(limit=5.104/5, count=26/10)                                       │                    │
+│ │     is_grid_center = <function Camera.update.<locals>.is_grid_center at 0x000001D423FD5A68>  │                    │
+│ │      is_still_prev = <function Camera.update.<locals>.is_still_prev at 0x000001D423FD5EE8>   │                    │
+│ │ prev_center_offset = None                                                                    │                    │
+│ │               self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                    │
+│ │ swipe_wait_timeout = Timer(limit=5.104/0.35, count=26/1)                                     │                    │
+│ │             swiped = True                                                                    │                    │
+│ │         wait_swipe = False                                                                   │                    │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────┘                    │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\map\camera.py:207 in _update_view                                                      │
+│                                                                                                                     │
+│   204 │   │   │   │   logger.error('Trying to update camera but game died')                                         │
+│   205 │   │   │   │   raise GameNotRunningError                                                                     │
+│   206 │   │   │   else:                                                                                             │
+│ > 207 │   │   │   │   raise e                                                                                       │
+│   208 │   │                                                                                                         │
+│   209 │   │   return True                                                                                           │
+│   210                                                                                                               │
+│                                                                                                                     │
+│ ┌──────────────────────────────────── locals ────────────────────────────────────┐                                  │
+│ │ self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                                  │
+│ └────────────────────────────────────────────────────────────────────────────────┘                                  │
+│                                                                                                                     │
+│ D:\AzurLaneAutoScript\module\map\camera.py:120 in _update_view                                                      │
+│                                                                                                                     │
+│   117 │   │   │   │   │   and not self.is_in_strategy_mob_move() \                                                  │
+│   118 │   │   │   │   │   and not self.is_in_strategy_air_strike():                                                 │
+│   119 │   │   │   │   logger.warning('Image to detect is not in_map')                                               │
+│ > 120 │   │   │   │   raise MapDetectionError('Image to detect is not in_map')                                      │
+│   121 │   │   │   self.view.load(self.device.image)                                                                 │
+│   122 │   │   except MapDetectionError as e:                                                                        │
+│   123 │   │   │   if self.info_bar_count():                                                                         │
+│                                                                                                                     │
+│ ┌──────────────────────────────────── locals ────────────────────────────────────┐                                  │
+│ │ self = <module.os.operation_siren.OperationSiren object at 0x000001D3A1EE8C88> │                                  │
+│ └────────────────────────────────────────────────────────────────────────────────┘                                  │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+MapDetectionError: Image to detect is not in_map                                                                       
+2026-09-27 16:09:57.620 | WARNING | Saving error: ./log/error/1790496597620                                            
